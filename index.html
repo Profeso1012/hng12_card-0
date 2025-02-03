@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="profile.gif" alt="Profile Picture" class="profile-pic" data-testid="profilePicture">
+        <h1 data-testid="fullName">Oluwaseyi Emmanuel</h1>
+        <h2 data-testid="jobTitle">Frontend Developer</h2>
+        <p data-testid="shortBio">
+            Passionate about building beautiful, responsive websites using HTML, CSS, and JavaScript. Excited to learn and grow through the HNG Internship.
+        </p>
+        <p data-testid="currentLocation">Lagos, Nigeria</p>
+        <p>Email: <a href="mailto:itzairso204@gmail.com" data-testid="emailAddress">itzairso204@gmail.com</a></p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/oluwaseyi-orngu-699840289/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Profeso1012" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://x.com/OluwaseyiO55725" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>        
+        <p>Current Time (UTC): <span id="utc-time" data-testid="currentTimeUTC"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
